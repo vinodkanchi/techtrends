@@ -36,4 +36,4 @@ jobs:
           file: ./techtrends/Dockerfile
           platform: linux/amd64
           push: true
-          tags: manilla/techtrends:latest
+          tags: vinodkanchi/techtrends:latest
