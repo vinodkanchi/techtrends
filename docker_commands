@@ -1,0 +1,35 @@
+## CD into the techtrends directory 
+
+## Docker Login
+
+docker login
+
+## Commands used to build the application
+
+docker build -t techtrends .
+
+
+## commands to test and run the application 
+
+docker run -dp 7111:3111 techtrends
+
+## Docker run output 
+
+
+
+## Docker command to retrieve the logs 
+
+docker logs 
+
+## TechTrends logs
+
+
+
+
+## DOcker command to tag the image 
+
+docker tag techtrends vinodkanchi/techtrends:v1.0.0
+
+## Docker command to push the images to dockerhub 
+
+docker push vinodkanchi/techtrends:v1.0.0
